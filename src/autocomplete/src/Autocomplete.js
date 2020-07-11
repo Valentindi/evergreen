@@ -295,6 +295,7 @@ Autocomplete.propTypes = {
   ...Downshift.propTypes
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Autocomplete.defaultProps = {
   itemToString: i => (i ? String(i) : ''),
   itemSize: 32,

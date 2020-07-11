@@ -108,6 +108,7 @@ TextDropdownButton.propTypes = {
   className: PropTypes.string
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 TextDropdownButton.defaultProps = {
   isActive: false,
   icon: <CaretDownIcon />

@@ -349,6 +349,7 @@ Popover.propTypes = {
   shouldCloseOnExternalClick: PropTypes.bool
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Popover.defaultProps = {
   position: Position.BOTTOM,
   minWidth: 200,

@@ -1,12 +1,18 @@
-import React, { memo, forwardRef } from 'react'
 import PropTypes from 'prop-types'
+import React, { forwardRef, memo } from 'react'
 import Box from 'ui-box'
 import { useTheme } from '../../theme'
 
 const Paragraph = memo(
   forwardRef((props, ref) => {
     const theme = useTheme()
-    const { size, color, fontFamily, marginTop, ...restProps } = props
+    const {
+      size = 400,
+      color = 'default',
+      fontFamily = 'ui',
+      marginTop,
+      ...restProps
+    } = props
 
     const {
       marginTop: defaultMarginTop,
@@ -48,12 +54,6 @@ Paragraph.propTypes = {
    * Can be: `ui`, `display` or `mono` or a custom font family.
    */
   fontFamily: PropTypes.string.isRequired
-}
-
-Paragraph.defaultProps = {
-  size: 400,
-  color: 'default',
-  fontFamily: 'ui'
 }
 
 export default Paragraph

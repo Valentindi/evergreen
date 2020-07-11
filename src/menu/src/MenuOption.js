@@ -106,6 +106,7 @@ MenuOption.propTypes = {
   appearance: PropTypes.string.isRequired
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 MenuOption.defaultProps = {
   appearance: 'default',
   isSelected: false,

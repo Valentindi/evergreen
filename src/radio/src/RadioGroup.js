@@ -107,6 +107,7 @@ RadioGroup.propTypes = {
   isRequired: PropTypes.bool.isRequired
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 RadioGroup.defaultProps = {
   options: [],
   onChange: () => {},

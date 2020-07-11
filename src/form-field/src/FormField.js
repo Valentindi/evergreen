@@ -108,6 +108,7 @@ FormField.propTypes = {
   ...layout.propTypes
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 FormField.defaultProps = {
   labelProps: {
     size: 400

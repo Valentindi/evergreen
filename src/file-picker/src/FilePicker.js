@@ -183,6 +183,7 @@ FilePicker.propTypes = {
   placeholder: PropTypes.string
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 FilePicker.defaultProps = {
   placeholder: 'Select a file to upload…'
 }

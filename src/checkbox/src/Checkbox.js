@@ -168,6 +168,7 @@ Checkbox.propTypes = {
   appearance: PropTypes.string
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Checkbox.defaultProps = {
   checked: false,
   indeterminate: false,

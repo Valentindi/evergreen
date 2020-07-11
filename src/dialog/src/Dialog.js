@@ -394,6 +394,7 @@ Dialog.propTypes = {
   overlayProps: PropTypes.object
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Dialog.defaultProps = {
   isShown: false,
   hasHeader: true,

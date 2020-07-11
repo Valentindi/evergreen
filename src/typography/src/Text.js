@@ -1,7 +1,7 @@
-import React, { memo, forwardRef } from 'react'
 import cx from 'classnames'
 import { css as glamorCss } from 'glamor'
 import PropTypes from 'prop-types'
+import React, { forwardRef, memo } from 'react'
 import Box from 'ui-box'
 import { useTheme } from '../../theme'
 
@@ -57,12 +57,6 @@ Text.propTypes = {
    * Can be: `ui`, `display` or `mono` or a custom font family.
    */
   fontFamily: PropTypes.string
-}
-
-Text.defaultProps = {
-  size: 400,
-  color: 'default',
-  fontFamily: 'ui'
 }
 
 export default Text

@@ -57,6 +57,7 @@ SearchInput.propTypes = {
   ...TextInput.propTypes
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 SearchInput.defaultProps = {
   height: 32,
   appearance: 'default'

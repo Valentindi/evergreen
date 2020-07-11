@@ -123,6 +123,7 @@ MenuItem.propTypes = {
   onKeyPress: PropTypes.func
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 MenuItem.defaultProps = {
   is: 'div',
   intent: 'none',

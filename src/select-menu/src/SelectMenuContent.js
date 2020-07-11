@@ -129,6 +129,7 @@ SelectMenuContent.propTypes = {
   emptyView: PropTypes.node
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 SelectMenuContent.defaultProps = {
   options: [],
   hasTitle: true,

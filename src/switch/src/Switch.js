@@ -190,6 +190,7 @@ Switch.propTypes = {
   defaultChecked: PropTypes.bool
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Switch.defaultProps = {
   height: 16,
   onChange: () => {},

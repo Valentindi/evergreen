@@ -1,12 +1,12 @@
-import React, { memo, forwardRef } from 'react'
 import PropTypes from 'prop-types'
+import React, { forwardRef, memo } from 'react'
 import Box from 'ui-box'
 import { useTheme } from '../../theme'
 
 const Heading = memo(
   forwardRef((props, ref) => {
     const theme = useTheme()
-    const { marginTop, size, ...restProps } = props
+    const { marginTop, size = 500, ...restProps } = props
     const {
       marginTop: defaultMarginTop,
       ...headingStyle
@@ -49,10 +49,6 @@ Heading.propTypes = {
     PropTypes.number,
     PropTypes.string
   ])
-}
-
-Heading.defaultProps = {
-  size: 500
 }
 
 export default Heading

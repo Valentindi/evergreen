@@ -341,6 +341,7 @@ Overlay.propTypes = {
   onEntered: PropTypes.func
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Overlay.defaultProps = {
   onHide: NOOP,
   shouldCloseOnClick: true,

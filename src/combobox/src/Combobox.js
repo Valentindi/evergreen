@@ -186,6 +186,7 @@ Combobox.propTypes = {
   isLoading: PropTypes.bool
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Combobox.defaultProps = {
   width: 240,
   openOnFocus: false,

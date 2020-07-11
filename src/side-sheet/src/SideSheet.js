@@ -248,6 +248,7 @@ SideSheet.propTypes = {
   preventBodyScrolling: PropTypes.bool
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 SideSheet.defaultProps = {
   width: 620,
   onCloseComplete: () => {},

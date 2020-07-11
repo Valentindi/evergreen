@@ -101,6 +101,7 @@ Textarea.propTypes = {
   className: PropTypes.string
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Textarea.defaultProps = {
   appearance: 'default',
   width: '100%',

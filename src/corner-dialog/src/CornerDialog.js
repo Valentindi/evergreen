@@ -280,6 +280,7 @@ CornerDialog.propTypes = {
   ])
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 CornerDialog.defaultProps = {
   width: 392,
   intent: 'none',

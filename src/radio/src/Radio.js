@@ -156,6 +156,7 @@ Radio.propTypes = {
   appearance: PropTypes.string.isRequired
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 Radio.defaultProps = {
   appearance: 'default',
   onChange: () => {},

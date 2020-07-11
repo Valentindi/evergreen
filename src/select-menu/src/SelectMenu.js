@@ -201,6 +201,7 @@ SelectMenu.propTypes = {
   closeOnSelect: PropTypes.bool
 }
 
+// TODO fix these (since defaultProps dont seem to work with memo + forwardRef)
 SelectMenu.defaultProps = {
   onSelect: () => {},
   onDeselect: () => {},
