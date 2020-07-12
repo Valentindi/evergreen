@@ -11,7 +11,7 @@ const baseStyle = {
 const invalidState = '&[aria-invalid="true"]'
 const placeholder = '&::placeholder'
 const focusState = '&:focus'
-const disabledState = '&:disabled'
+const disabledState = '&[disabled]'
 
 /**
  * @param {object} items - object with a set of states.
